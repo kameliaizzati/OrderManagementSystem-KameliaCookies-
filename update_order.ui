@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdateOrderW3</class>
+ <widget class="QMainWindow" name="UpdateOrderW3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Handwriting</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>KameliaCookies</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>361</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>Update Order for Existing Customer</string>
+    </property>
+    <widget class="QWidget" name="formLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>321</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <property name="labelAlignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="CustomerNameLabel">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>Name :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="CustomerNameInputW3"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>321</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>319</width>
+        <height>249</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="horizontalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QComboBox" name="W3Kuih01">
+          <item>
+           <property name="text">
+            <string>None</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Almond_London</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cookies</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cornflakes_Crunchy</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dahlia</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Makmur</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rainbow</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Red_Pearl</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Semperit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Suji</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Tart_Nenas</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="w3Qkuih01">
+          <property name="contextMenuPolicy">
+           <enum>Qt::NoContextMenu</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>281</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Kuih :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Quantity :</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QComboBox" name="W3Kuih03">
+          <item>
+           <property name="text">
+            <string>None</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Almond_London</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cookies</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cornflakes_Crunchy</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dahlia</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Makmur</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rainbow</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Red_Pearl</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Semperit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Suji</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Tart_Nenas</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="w3Qkuih03">
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QComboBox" name="W3Kuih02">
+          <item>
+           <property name="text">
+            <string>None</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Almond_London</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cookies</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cornflakes_Crunchy</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dahlia</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Makmur</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rainbow</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Red_Pearl</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Semperit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Suji</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Tart_Nenas</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="w3Qkuih02">
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QComboBox" name="W3Kuih04">
+          <item>
+           <property name="text">
+            <string>None</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Almond_London</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cookies</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cornflakes_Crunchy</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dahlia</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Makmur</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rainbow</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Red_Pearl</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Semperit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Suji</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Tart_Nenas</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="w3Qkuih04">
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>200</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QComboBox" name="W3Kuih05">
+          <item>
+           <property name="text">
+            <string>None</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Almond_London</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cookies</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cornflakes_Crunchy</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dahlia</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Makmur</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rainbow</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Red_Pearl</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Semperit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Suji</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Tart_Nenas</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="w3Qkuih05">
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>360</y>
+       <width>211</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Current Deposit :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="W3CurDepo">
+        <property name="text">
+         <string>RM?</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_9">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>340</y>
+       <width>211</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>             Total         :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="W3Total">
+        <property name="text">
+         <string>RM?</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_10">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>380</y>
+       <width>211</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Add On Deposit   :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="W3AddOnDepo">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="maxLength">
+         <number>32750</number>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_11">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>400</y>
+       <width>211</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>        Balance        :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="W3Balance">
+        <property name="text">
+         <string>RM?</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_12">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>420</y>
+       <width>211</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_12">
+      <item>
+       <widget class="QPushButton" name="AddUpdateOrderButton">
+        <property name="text">
+         <string>Update Order</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_13">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>320</y>
+       <width>211</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_13">
+      <item>
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>     Total Add-On  :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="W3TotalAddOn">
+        <property name="text">
+         <string>RM?</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Georgia</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <widget class="QMenu" name="menulist_kuih_raya">
+    <property name="title">
+     <string>cookies!</string>
+    </property>
+    <addaction name="actionlist_kuih_raya"/>
+    <addaction name="actionnew_order"/>
+    <addaction name="actionupdate_order"/>
+    <addaction name="actionpreview_order"/>
+    <addaction name="actionpreview_stocks"/>
+   </widget>
+   <addaction name="menulist_kuih_raya"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionnew_customer">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>new customer</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::ApplicationSpecificRole</enum>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionexisting_customer">
+   <property name="text">
+    <string>existing customer</string>
+   </property>
+  </action>
+  <action name="actionlist_kuih_raya">
+   <property name="text">
+    <string>list kuih raya</string>
+   </property>
+  </action>
+  <action name="actionnew_order">
+   <property name="text">
+    <string>new order</string>
+   </property>
+  </action>
+  <action name="actionupdate_order">
+   <property name="text">
+    <string>update order</string>
+   </property>
+  </action>
+  <action name="actionpreview_order">
+   <property name="text">
+    <string>preview order</string>
+   </property>
+  </action>
+  <action name="actionpreview_stocks">
+   <property name="text">
+    <string>preview stocks</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../../Pictures/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
