@@ -374,10 +374,8 @@ class Window5(QMainWindow): #Preview Stock's Order
 
     def previewW5(self):
         self.chosen_kuih = self.ui5.ChosenKuihW5.currentText()
-        df2 = pd.read_sql_query("SELECT * FROM kuihraya2024",con)
         if self.chosen_kuih == 'All':
             kuihraya24 = ('Almond_London', 'Cookies', 'Cornflakes_Crunchy', 'Dahlia', 'Makmur', 'Rainbow', 'Red_Pearl', 'Semperit', 'Suji', 'Tart_Nenas')
-            #df2 = pd.read_sql_query("SELECT COALESCE(SUM(%s + %s + %s + %s + %s + %s+ %s + %s+ %s+ %s),0) FROM kuihraya2024"%(kuihraya24),con)
             all_orderlist = []
             jumlah = 0
             for i in kuihraya24:
