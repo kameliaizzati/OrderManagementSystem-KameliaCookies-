@@ -81,7 +81,7 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>9</number>
     </property>
     <property name="tabBarAutoHide">
      <bool>false</bool>
@@ -149,7 +149,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/almond_london.png</pixmap>
+        <pixmap>almond_london.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -326,7 +326,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/cookies.jpeg</pixmap>
+        <pixmap>cookies.jpeg</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -450,7 +450,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/cornflakes_crunchy.jpeg</pixmap>
+        <pixmap>cornflakes_crunchy.jpeg</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -549,7 +549,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/dahlia.jpg</pixmap>
+        <pixmap>dahlia.jpg</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -648,7 +648,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/makmur.jpg</pixmap>
+        <pixmap>makmur.jpg</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -797,7 +797,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/rainbow.jpg</pixmap>
+        <pixmap>rainbow.jpg</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -946,7 +946,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/red_pearl.png</pixmap>
+        <pixmap>red_pearl.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -1070,7 +1070,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/semperit.jpg</pixmap>
+        <pixmap>semperit.jpg</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -1194,7 +1194,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/suji.jpg</pixmap>
+        <pixmap>suji.jpg</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -1293,7 +1293,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../KuihRaya/tart_nenas.jpg</pixmap>
+        <pixmap>tart_nenas.jpg</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -1422,9 +1422,6 @@
    </property>
   </action>
  </widget>
- <resources>
-  <include location="../../../Pictures/image.qrc"/>
-  <include location="../KuihRaya/KuihRaya.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
